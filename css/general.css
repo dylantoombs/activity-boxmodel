@@ -90,7 +90,7 @@ h1 {
     margin: 1.5rem 0;
     line-height: 3rem;
     font-kerning:auto;
-    font-family: futura, arial sans-serif
+    font-family: futura, arial sans-serif;
 }
 
 h1 + p {
