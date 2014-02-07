@@ -84,7 +84,8 @@ article {
 h1 {
     font-size: 3rem;
     margin: 1.5rem 0;
-    line-height: 2.5rem;
+    line-height: 3rem;
+    font-kerning:auto;
 }
 
 h1 + p {
@@ -103,7 +104,7 @@ li {
     font-size: 1rem;
     font-family: sans-serif;
     font-weight: bold;
-    color: white;
+    color: teal;
 }
 
 figure {
