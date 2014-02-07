@@ -54,7 +54,7 @@ img {
 	width: 100%; /* Images are responsive */
     display: block;
     border-style: solid;
-    border-color: teal;
+    border-color: darkslategrey;
     border-width: .5rem;
     border-left: 3rem;
     border-right: 3rem;
@@ -74,7 +74,8 @@ body {
 .logo {
     height: 10rem;
     width: auto;
-    margin: 0rem 0rem;
+    margin: 1rem 1rem;
+    border-style: none;
     /* margin: .5rem auto; */
 }
 
