@@ -53,11 +53,17 @@ html {
 img {
 	width: 100%; /* Images are responsive */
     display: block;
+    border-style: solid;
+    border-color: teal;
+    border-width: .5rem;
+    border-left: 3rem;
+    border-right: 3rem;
 }
 
 body {
     margin: 0;
     padding: 0;
+    background-color: Wheat;
 }
 
 .masthead {
@@ -68,7 +74,7 @@ body {
 .logo {
     height: 10rem;
     width: auto;
-    margin: 1rem 1rem;
+    margin: 0rem 0rem;
     /* margin: .5rem auto; */
 }
 
@@ -83,6 +89,7 @@ h1 {
     margin: 1.5rem 0;
     line-height: 3rem;
     font-kerning:auto;
+    font-family: futura, arial sans-serif
 }
 
 h1 + p {
@@ -99,7 +106,7 @@ li {
     line-height: 1rem;
     margin: 0 0 1rem;
     font-size: 1rem;
-    font-family: sans-serif;
+    font-family: futura, arial, sans-serif;
     font-weight: bold;
     color: teal;
 }
@@ -110,19 +117,20 @@ figure {
 }
 
 figcaption {
-    font-size: .75rem;
+    font-size: 1rem;
     margin: .5rem 0 0;
+    color: teal;
 }
 
 footer {
-    background-color: black;
+    background-color: teal;
     overflow: hidden;
 }
 
 footer p {
     font-size: 1rem;
     margin: .5rem 5% 5rem;
-    color: teal;
+    color: wheat;
     font-style: italic;
 }
 
